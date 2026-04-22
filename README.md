@@ -1,5 +1,5 @@
 citiZen BLR 🐕📍
-Empowering Community Dog Welfare in Bengaluru through Technology.
+Empowering Community Dog Welfare in Bengaluru through Technology. (prototype)
 
 citiZen BLR is an integrated urban platform designed to modernize the management and welfare of community dogs in Bengaluru. By combining IoT tracking, AI surveillance, and community-driven data, the platform creates a transparent ecosystem for rescue, vaccination, and adoption.
 
