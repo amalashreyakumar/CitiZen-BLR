@@ -1,54 +1,92 @@
-citiZen BLR 🐕📍
-Empowering Community Dog Welfare in Bengaluru through Technology. (prototype)
+# citiZen BLR
+Empowering community dog welfare in Bengaluru through a data-driven digital platform (prototype).
 
-citiZen BLR is an integrated urban platform designed to modernize the management and welfare of community dogs in Bengaluru. By combining IoT tracking, AI surveillance, and community-driven data, the platform creates a transparent ecosystem for rescue, vaccination, and adoption.
+## Overview
+citiZen BLR is an integrated platform concept designed to improve how community dogs are tracked, monitored, and cared for in urban areas. It brings together data visualization, tracking interfaces, and reporting tools to support NGOs, volunteers, and local authorities.
 
-📊 Data Analytics & Insights
-The core of citiZen BLR is its data-driven approach to urban animal welfare. The Data Analytics Dashboard provides real-time metrics to help NGOs and local authorities (BBMP) make informed decisions.
+This project is currently a **frontend prototype** focused on demonstrating system design and user experience.
 
-Key Performance Indicators (KPIs) tracked:
-Rescue Efficiency: Monitors an average response time of 89 minutes for emergency calls.
+---
 
-Welfare Success: Tracks a 98.2% operation success rate and has documented 156 successful adoptions this year.
+## Data Analytics & Insights
+A central dashboard provides structured insights to support decision-making.
 
-Population Health: Visualizes vaccination coverage across city zones, such as 72% in Koramangala and 84% in Indiranagar.
+Key metrics demonstrated include:
+- Rescue response tracking  
+- Adoption and welfare outcomes  
+- Zone-wise vaccination coverage  
+- Volunteer and feeder activity  
 
-Community Impact: Analyzes trends from over 18 vaccination camps and the activity of 840+ active feeders.
+*Note: All data shown is simulated for demonstration purposes.*
 
-🛠 Tech Stack & Key Features
-1. AI-Powered Monitoring
-Edge AI Cameras: Real-time detection of dogs in high-traffic zones (e.g., Silk Board Flyover) to prevent accidents.
+---
 
-Automated Alerts: System triggers "Warning" statuses when dogs are detected in hazardous areas.
+## Core Features
 
-2. Smart Identification (QR System)
-Digital Dog Profiles: Each community dog is assigned a unique ID (e.g., BLR-DOG-04821) accessible via QR code.
+### 1. Monitoring Interface (AI-based concept)
+- UI designed for detecting dogs in high-risk zones  
+- Visual alert system for potential hazards  
 
-Cloud Ledger: Stores medical history, vaccination dates, last check-up info, and primary community feeder contact details.
+### 2. QR-based Identification
+- Unique ID assigned to each dog  
+- Digital profile with medical and tracking information  
 
-3. GPS Tracking & SOS
-Live Locational Data: Real-time status updates (Moving vs. Resting) across zones like HSR, BTM, and Whitefield.
+### 3. Tracking Interface
+- Location-based status representation (e.g., moving/resting)  
+- Zone-level tracking across different areas in Bengaluru  
 
-SOS Emergency Reporting: Instant reporting tool for injured dogs with GPS-linked notifications sent to the nearest NGO (e.g., CUPA Bengaluru).
+### 4. SOS Reporting System
+- Interface to report injured or at-risk dogs  
+- Designed workflow for notifying nearby responders  
 
-📂 Project Structure
-index.html: Main landing page and feature gateway.
+---
 
-data-analytics.html: Advanced dashboard for population and health metrics.
+## Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
 
-ai-cameras.html: Interface for live AI surveillance feeds.
+---
 
-qr-system.html: Dog ID lookup and digital profile management.
+## Project Structure
+- `index.html` – Main entry point  
+- `data-analytics.html` – Dashboard  
+- `ai-cameras.html` – Monitoring interface  
+- `qr-system.html` – Dog identification system  
+- `gps-tracking.html` – Tracking interface  
+- `report-injured.html` – Reporting system  
 
-gps-tracking.html: Territorial monitoring and location-based status.
+---
 
-report-injured.html: SOS form for emergency rescue operations.
+## Screenshots
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 55 06 PM" src="https://github.com/user-attachments/assets/7b9b34d9-73d9-4457-bf48-12fec5cd1c72" />
 
-🤝 Community & Volunteering
-The platform coordinates a massive network of volunteers for:
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 55 37 PM" src="https://github.com/user-attachments/assets/adc1b470-e67b-4b8d-86f0-62fb040df460" />
 
-Zone Feeding: Coordinating feeding drives in specific neighborhoods.
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 57 28 PM" src="https://github.com/user-attachments/assets/2f5cf989-401a-45d8-b72d-f74f0aa1ae44" />
 
-Adoption Drives: Facilitating matches for rescue dogs in Electronic City and beyond.
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 58 09 PM" src="https://github.com/user-attachments/assets/df29b186-6c30-439f-aa5f-a65340e945a2" />
 
-Training: Online webinars for first aid and safe handling practices.
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 58 53 PM" src="https://github.com/user-attachments/assets/a845595f-11b4-4580-a1bb-c8b635753cdc" />
+
+<img width="1470" height="798" alt="Screenshot 2026-05-05 at 10 59 11 PM" src="https://github.com/user-attachments/assets/435258a9-1b7e-474c-8b3f-be1d28dc9cdd" />
+
+
+---
+
+## Current Scope
+- Frontend prototype only  
+- No backend or real-time integration  
+- AI and GPS components are conceptual interfaces  
+
+---
+
+## Future Work
+- Backend and database integration  
+- Real-time tracking and reporting  
+- Integration with external systems (NGOs / civic bodies)  
+
+---
+
+## Motivation
+This project explores how structured data and well-designed interfaces can improve coordination and transparency in urban animal welfare systems.
