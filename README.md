@@ -1,6 +1,10 @@
 # citiZen BLR
 Empowering community dog welfare in Bengaluru through a data-driven digital platform (prototype).
 
+## Scope
+citiZen BLR is designed as a broader citizen platform for urban welfare services.  
+The current implementation focuses specifically on the **community dog welfare module**, which serves as a prototype for the larger system.
+
 ## Overview
 citiZen BLR is an integrated platform concept designed to improve how community dogs are tracked, monitored, and cared for in urban areas. It brings together data visualization, tracking interfaces, and reporting tools to support NGOs, volunteers, and local authorities.
 
@@ -77,7 +81,7 @@ Key metrics demonstrated include:
 ## Current Scope
 - Frontend prototype only  
 - No backend or real-time integration  
-- AI and GPS components are conceptual interfaces  
+- AI and GPS components are conceptual interfaces
 
 ---
 
